@@ -51,7 +51,7 @@ def presenceHandler(evt) {
 				log.debug "Found ${recentEvents?.size() ?: 0} events in the last $deltaSeconds seconds"
 			def alreadySentSms = recentEvents.count { it.value && it.value == "present" } > 1
                         
-			////if (alreadySentSms) {
+			//if (alreadySentSms) {
 				//log.debug "SMS already sent within the last $deltaSeconds seconds"
             	//sendSms(phone1, "Arrival, sms already sent ")
               if (garage_sensor.currentContact == "open") {
