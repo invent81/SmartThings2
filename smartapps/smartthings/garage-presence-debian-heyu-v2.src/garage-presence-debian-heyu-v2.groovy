@@ -50,9 +50,9 @@ def presenceHandler(evt) {
             	sendSms(phone1, "Door already open")                
 			} else {
         		//sendSms(phone1, "${presence.label ?: presence.name} has arrived ${location}")                
-                pause(1000)
+                //pause(1000)
                 sendSms(phone1, "opening garage now")
-                pause(1000)
+                //pause(1000)
                 
            		def params = [
     				uri: "http://vpn.milltrek.net:12125",
