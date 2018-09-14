@@ -1,5 +1,5 @@
 definition(
-    name: "Garage presence debian heyu v3 ##",
+    name: "Garage presence debian heyu v3 ###",
     namespace: "smartthings",
     author: "SmartThings",
     description: "Send me a text message when my presence status changes.",
